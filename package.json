@@ -4,11 +4,13 @@
   "description": "Plantilla PDF",
   "main": "index.js",
   "scripts": {
-    "postinstall": "node ./scripts/postinstall.js"
+    "postinstall": "node ./scripts/postinstall.js",
+    "build": "node ./scripts/build.js"
   },
   "author": "Gabriela Escoto <gescoto@lisyx.com>",
   "license": "ISC",
   "dependencies": {
+    "inline-source": "^6.1.6",
     "normalize.css": "^8.0.0",
     "paper-css": "^0.4.1"
   }
