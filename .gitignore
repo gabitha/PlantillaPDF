@@ -1,0 +1,5 @@
+node_modules
+assets/normalize.scss
+assets/paper.scss
+assets/*.css
+assets/*.css.map
